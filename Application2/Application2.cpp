@@ -32,5 +32,12 @@ int main()
     std::cout << "Size of unsigned int is " << sizeof(unsigned int) << " Bytes" << std::endl;
     std::cout << "The maximum value uint can take is " << UINT_MAX << std::endl;
 
+    // Datatype Overflow
+    // INT_MAX + 1 = INT_MIN
+    // INT_MIN - 1 = INT_MAX
+    int intMax = INT_MAX;
+    // This will print INT_MIN value
+    std::cout << intMax + 1 << std::endl;
+
     system("pause>0");
 }
