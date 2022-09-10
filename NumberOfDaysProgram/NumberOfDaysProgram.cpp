@@ -10,7 +10,7 @@ int main()
 
     switch (month)
     {
-    // Februaru
+    // February
     // 29 days - leap year
     // 28 days - otherwise
     case 2:
@@ -18,7 +18,7 @@ int main()
             std::cout << "29 Days Month" << std::endl:
             std::cout << "28 Days Month" << std::endl;
         break;
-    // 30 days - April, June, August, September, November
+    // 30 days - April, June, September, November
     case 4:
     case 6:
     case 9:
