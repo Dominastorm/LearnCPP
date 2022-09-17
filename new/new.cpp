@@ -14,9 +14,6 @@ int main()
 		table[i] = new int[cols];
 	}
 
-	// assigning a value
-	table[1][2] = 88;
-
 	// we will need to de-allocate from the inside out
 	// i.e. reverse of the order of allocation
 	for (int i = 0; i < rows; i++) {
